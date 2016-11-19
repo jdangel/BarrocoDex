@@ -13,6 +13,7 @@
 		8EA500641DDFD9ED0021C7AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA500631DDFD9ED0021C7AA /* Images.xcassets */; };
 		8EA500671DDFD9ED0021C7AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA500651DDFD9ED0021C7AA /* LaunchScreen.xib */; };
 		8EA500731DDFD9ED0021C7AA /* BarrocoDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA500721DDFD9ED0021C7AA /* BarrocoDexTests.swift */; };
+		8EA5007D1DDFDD810021C7AA /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8EA5007C1DDFDD810021C7AA /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8EA5006C1DDFD9ED0021C7AA /* BarrocoDexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrocoDexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA500711DDFD9ED0021C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA500721DDFD9ED0021C7AA /* BarrocoDexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrocoDexTests.swift; sourceTree = "<group>"; };
+		8EA5007C1DDFDD810021C7AA /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../Downloads/pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				8EA5005C1DDFD9ED0021C7AA /* AppDelegate.swift */,
 				8EA5005E1DDFD9ED0021C7AA /* ViewController.swift */,
 				8EA500601DDFD9ED0021C7AA /* Main.storyboard */,
+				8EA5007C1DDFDD810021C7AA /* pokemon.csv */,
 				8EA500631DDFD9ED0021C7AA /* Images.xcassets */,
 				8EA500651DDFD9ED0021C7AA /* LaunchScreen.xib */,
 				8EA5005A1DDFD9EC0021C7AA /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				8EA500621DDFD9ED0021C7AA /* Main.storyboard in Resources */,
 				8EA500671DDFD9ED0021C7AA /* LaunchScreen.xib in Resources */,
+				8EA5007D1DDFDD810021C7AA /* pokemon.csv in Resources */,
 				8EA500641DDFD9ED0021C7AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
