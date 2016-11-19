@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA5005D1DDFD9ED0021C7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5005C1DDFD9ED0021C7AA /* AppDelegate.swift */; };
+		8EA5005F1DDFD9ED0021C7AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5005E1DDFD9ED0021C7AA /* ViewController.swift */; };
+		8EA500621DDFD9ED0021C7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA500601DDFD9ED0021C7AA /* Main.storyboard */; };
+		8EA500641DDFD9ED0021C7AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA500631DDFD9ED0021C7AA /* Images.xcassets */; };
+		8EA500671DDFD9ED0021C7AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA500651DDFD9ED0021C7AA /* LaunchScreen.xib */; };
+		8EA500731DDFD9ED0021C7AA /* BarrocoDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA500721DDFD9ED0021C7AA /* BarrocoDexTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EA5006D1DDFD9ED0021C7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EA5004F1DDFD9EB0021C7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA500561DDFD9EC0021C7AA;
+			remoteInfo = BarrocoDex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EA500571DDFD9EC0021C7AA /* BarrocoDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrocoDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA5005B1DDFD9EC0021C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA5005C1DDFD9ED0021C7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EA5005E1DDFD9ED0021C7AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EA500611DDFD9ED0021C7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EA500631DDFD9ED0021C7AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EA500661DDFD9ED0021C7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8EA5006C1DDFD9ED0021C7AA /* BarrocoDexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrocoDexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA500711DDFD9ED0021C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA500721DDFD9ED0021C7AA /* BarrocoDexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrocoDexTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA500541DDFD9EC0021C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA500691DDFD9ED0021C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA5004E1DDFD9EB0021C7AA = {
+			isa = PBXGroup;
+			children = (
+				8EA500591DDFD9EC0021C7AA /* BarrocoDex */,
+				8EA5006F1DDFD9ED0021C7AA /* BarrocoDexTests */,
+				8EA500581DDFD9EC0021C7AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA500581DDFD9EC0021C7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA500571DDFD9EC0021C7AA /* BarrocoDex.app */,
+				8EA5006C1DDFD9ED0021C7AA /* BarrocoDexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA500591DDFD9EC0021C7AA /* BarrocoDex */ = {
+			isa = PBXGroup;
+			children = (
+				8EA5005C1DDFD9ED0021C7AA /* AppDelegate.swift */,
+				8EA5005E1DDFD9ED0021C7AA /* ViewController.swift */,
+				8EA500601DDFD9ED0021C7AA /* Main.storyboard */,
+				8EA500631DDFD9ED0021C7AA /* Images.xcassets */,
+				8EA500651DDFD9ED0021C7AA /* LaunchScreen.xib */,
+				8EA5005A1DDFD9EC0021C7AA /* Supporting Files */,
+			);
+			path = BarrocoDex;
+			sourceTree = "<group>";
+		};
+		8EA5005A1DDFD9EC0021C7AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA5005B1DDFD9EC0021C7AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EA5006F1DDFD9ED0021C7AA /* BarrocoDexTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EA500721DDFD9ED0021C7AA /* BarrocoDexTests.swift */,
+				8EA500701DDFD9ED0021C7AA /* Supporting Files */,
+			);
+			path = BarrocoDexTests;
+			sourceTree = "<group>";
+		};
+		8EA500701DDFD9ED0021C7AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA500711DDFD9ED0021C7AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA500561DDFD9EC0021C7AA /* BarrocoDex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA500761DDFD9ED0021C7AA /* Build configuration list for PBXNativeTarget "BarrocoDex" */;
+			buildPhases = (
+				8EA500531DDFD9EC0021C7AA /* Sources */,
+				8EA500541DDFD9EC0021C7AA /* Frameworks */,
+				8EA500551DDFD9EC0021C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrocoDex;
+			productName = BarrocoDex;
+			productReference = 8EA500571DDFD9EC0021C7AA /* BarrocoDex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EA5006B1DDFD9ED0021C7AA /* BarrocoDexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA500791DDFD9ED0021C7AA /* Build configuration list for PBXNativeTarget "BarrocoDexTests" */;
+			buildPhases = (
+				8EA500681DDFD9ED0021C7AA /* Sources */,
+				8EA500691DDFD9ED0021C7AA /* Frameworks */,
+				8EA5006A1DDFD9ED0021C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EA5006E1DDFD9ED0021C7AA /* PBXTargetDependency */,
+			);
+			name = BarrocoDexTests;
+			productName = BarrocoDexTests;
+			productReference = 8EA5006C1DDFD9ED0021C7AA /* BarrocoDexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA5004F1DDFD9EB0021C7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Jesus;
+				TargetAttributes = {
+					8EA500561DDFD9EC0021C7AA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8EA5006B1DDFD9ED0021C7AA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8EA500561DDFD9EC0021C7AA;
+					};
+				};
+			};
+			buildConfigurationList = 8EA500521DDFD9EC0021C7AA /* Build configuration list for PBXProject "BarrocoDex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA5004E1DDFD9EB0021C7AA;
+			productRefGroup = 8EA500581DDFD9EC0021C7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA500561DDFD9EC0021C7AA /* BarrocoDex */,
+				8EA5006B1DDFD9ED0021C7AA /* BarrocoDexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA500551DDFD9EC0021C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA500621DDFD9ED0021C7AA /* Main.storyboard in Resources */,
+				8EA500671DDFD9ED0021C7AA /* LaunchScreen.xib in Resources */,
+				8EA500641DDFD9ED0021C7AA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA5006A1DDFD9ED0021C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA500531DDFD9EC0021C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA5005F1DDFD9ED0021C7AA /* ViewController.swift in Sources */,
+				8EA5005D1DDFD9ED0021C7AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA500681DDFD9ED0021C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA500731DDFD9ED0021C7AA /* BarrocoDexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EA5006E1DDFD9ED0021C7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EA500561DDFD9EC0021C7AA /* BarrocoDex */;
+			targetProxy = 8EA5006D1DDFD9ED0021C7AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EA500601DDFD9ED0021C7AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA500611DDFD9ED0021C7AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EA500651DDFD9ED0021C7AA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA500661DDFD9ED0021C7AA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA500741DDFD9ED0021C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA500751DDFD9ED0021C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA500771DDFD9ED0021C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarrocoDex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EA500781DDFD9ED0021C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarrocoDex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EA5007A1DDFD9ED0021C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarrocoDexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrocoDex.app/BarrocoDex";
+			};
+			name = Debug;
+		};
+		8EA5007B1DDFD9ED0021C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BarrocoDexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrocoDex.app/BarrocoDex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA500521DDFD9EC0021C7AA /* Build configuration list for PBXProject "BarrocoDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA500741DDFD9ED0021C7AA /* Debug */,
+				8EA500751DDFD9ED0021C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA500761DDFD9ED0021C7AA /* Build configuration list for PBXNativeTarget "BarrocoDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA500771DDFD9ED0021C7AA /* Debug */,
+				8EA500781DDFD9ED0021C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EA500791DDFD9ED0021C7AA /* Build configuration list for PBXNativeTarget "BarrocoDexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA5007A1DDFD9ED0021C7AA /* Debug */,
+				8EA5007B1DDFD9ED0021C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA5004F1DDFD9EB0021C7AA /* Project object */;
+}
